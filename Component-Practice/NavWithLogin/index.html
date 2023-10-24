@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-bar">
+            <div class="logo"><a href="index.html">LOGO</a></div>
+            <ul class="nav-link-container">
+                <li class="nav-link">Home</li>
+                <li class="nav-link">Home</li>
+                <div class="nav-link dropdown">Home
+                    <div class="dropdown-container">
+                        <li class="link">Link 1</li>
+                        <li class="link">Link 2</li>
+                        <li class="link">Link 3</li>
+                    </div>
+                </div>
+                <li class="nav-link">Home</li>
+                <li class="nav-link">Home</li>
+            </ul>
+            <div class="button-container">
+                <button type="button" class="btn btn-SignIn" id="SignIn" onclick="OnClick()">SignIn</button>
+                <button type="button" class="btn btn-login">Login</button>
+            </div>
+            <div class="menu-btn dropdown">MENU
+                <div class="dropdown-container">
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+     <article>
+        <form action="" id="form">
+            <span class="form-name">SignUp</span>
+            <div class="Name">
+                <label for="fname">Full Name</label>
+                <input type="text"  id="fname" required>
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="password">
+                <label for="password">Password</label>
+                <input type="passwor" id="password" required>
+            </div>
+            <div class="button">
+                <button type="submit" class="btn btn-Register">Register</button>
+                <button type="reset" class="btn btn-Close" onclick="OnClick()">Close</button>
+            </div>
+        </form>
+     </article>
+    </main>
+    
+    
+    
+    <footer>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

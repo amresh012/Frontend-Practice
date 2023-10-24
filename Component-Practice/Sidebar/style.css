@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    /* color: #000; */
+    background-color:#6C63FF;
+    max-width: 15vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.logo-container{
+    display: flex;
+    padding: 5%;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid red; */
+
+}
+.logo-container h1{
+    background-color: #fff;
+    padding: 5%;
+    border-radius: 50%;
+    font-style: italic;
+    color: greenyellow;
+}
+.logo-container p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px; 
+    align-items: center;
+    list-style: none;
+    margin: 2%;
+    height: 70%;
+    /* border: 1px solid red; */
+}
+.content-container li
+{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    color: #fff;
+
+}
+.content-container li:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+    background-color: #fff;
+    padding: 5%;
+    color: #000;
+}
+.profile-container{
+    /* border: 1px solid red; */
+    height: calc(100vh - 80%)
+}
+.Profile{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+}
+.Profile .Profile-img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    padding: 1%;
+    box-shadow: 0px 0px 10px black;
+}
+.Button{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.Button button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 5%;
+    margin: 2%;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.fa-close{
+    font-size: 100px;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid red;
+
+
+}
